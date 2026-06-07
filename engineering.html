@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kaihang Weng 的 SRE 工程笔记目录，包含故障复盘、项目总结和技术笔记。"
+    />
+    <title>Engineering | Kevin Weng</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Kevin Weng</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="engineering.html">Engineering</a>
+        <a href="life.html">Life</a>
+        <a href="index.html#about">About</a>
+        <a href="mailto:kevinweng0509@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">Dark</button>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Engineering</p>
+        <h1>SRE Field Notes</h1>
+        <p>
+          这里放故障复盘、项目总结和技术笔记。重点不是堆技术名词，而是留下问题背景、
+          取舍过程、最终结果，以及 Linux、Kubernetes、MySQL 等系统实践里的判断。
+        </p>
+      </section>
+
+      <section class="section archive-section" id="incidents">
+        <div class="archive-heading">
+          <p class="eyebrow">Incidents</p>
+          <h2>故障复盘</h2>
+        </div>
+        <div class="post-list">
+          <a class="post-row" href="posts/incidents/template.html">
+            <span>Template</span>
+            <div>
+              <h3>故障复盘模板</h3>
+              <p>用于记录现象、影响范围、时间线、根因、修复动作和后续改进。</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section archive-section" id="projects">
+        <div class="archive-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>项目总结</h2>
+        </div>
+        <div class="post-list">
+          <a class="post-row" href="posts/projects/template.html">
+            <span>Template</span>
+            <div>
+              <h3>SRE 项目总结模板</h3>
+              <p>用于整理背景、目标、方案、执行过程、结果指标和复盘。</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section archive-section" id="notes">
+        <div class="archive-heading">
+          <p class="eyebrow">Notes</p>
+          <h2>技术笔记</h2>
+        </div>
+        <div class="post-list">
+          <a class="post-row" href="posts/notes/sre-learning-map.html">
+            <span>Draft</span>
+            <div>
+              <h3>SRE 学习地图</h3>
+              <p>把 Linux、Kubernetes、MySQL、自动化和稳定性治理串起来。</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Kevin Weng · Engineering</p>
+      <a href="index.html">Home</a>
+    </footer>
+    <script src="theme.js"></script>
+  </body>
+</html>

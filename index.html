@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kaihang Weng 的个人主页，记录 SRE 工作、技术笔记和日常生活。"
+    />
+    <title>Kaihang Weng | SRE Field Notes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">Kevin Weng</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="engineering.html">Engineering</a>
+        <a href="life.html">Life</a>
+        <a href="#about">About</a>
+        <a href="mailto:kevinweng0509@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">Dark</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">SRE · Reliability · Field Notes</p>
+          <h1>KaiHang Weng</h1>
+          <p class="hero-text">
+            大家好，我是 KaiHang Weng（翁凯航），也可以叫我 Kevin。我目前在
+            Shopee Engineering Infra 部门担任系统稳定性工程师。这里记录我的工作、
+            技术学习和日常生活。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="engineering.html">查看工程笔记</a>
+            <a class="button secondary" href="https://github.com/rofgmd">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="signal-panel" aria-label="Personal site signal panel">
+          <div class="panel-top">
+            <span class="status-dot"></span>
+            <span>personal-site / uptime</span>
+          </div>
+          <dl class="metrics">
+            <div>
+              <dt>Focus</dt>
+              <dd>SRE</dd>
+            </div>
+            <div>
+              <dt>Base</dt>
+              <dd>Shenzhen</dd>
+            </div>
+            <div>
+              <dt>Mode</dt>
+              <dd>Learning in public</dd>
+            </div>
+          </dl>
+          <div class="terminal-card">
+            <p>$ tail -f field-notes.log</p>
+            <p>incidents, runbooks, projects, football, travel</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section intro-grid" id="engineering">
+        <div class="section-heading">
+          <p class="eyebrow">Engineering</p>
+          <h2>面向可靠性的工程实践与系统演进</h2>
+        </div>
+        <div class="card-grid">
+          <a class="card card-link" href="engineering.html#incidents">
+            <span class="tag">Incidents</span>
+            <h3>故障复盘</h3>
+            <p>记录线上问题的现象、排查路径、根因、修复动作和后续改进。</p>
+          </a>
+          <a class="card card-link" href="engineering.html#projects">
+            <span class="tag">Projects</span>
+            <h3>项目总结</h3>
+            <p>总结稳定性优化、自动化建设、可观测性改造和平台工程实践。</p>
+          </a>
+          <a class="card card-link" href="engineering.html#notes">
+            <span class="tag">Notes</span>
+            <h3>新知识总结</h3>
+            <p>沉淀 Linux、Kubernetes、MySQL、自动化和系统稳定性相关笔记。</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section split-section" id="life">
+        <div>
+          <p class="eyebrow">Life</p>
+          <h2>工作之外，也保留一点真实的生活纹理</h2>
+        </div>
+        <div class="life-list">
+          <a href="life.html#football">
+            <h3>Football</h3>
+            <p>踢球记录、比赛观察、尤文图斯，以及那些很难用数据解释的瞬间。</p>
+          </a>
+          <a href="life.html#travel">
+            <h3>Travel</h3>
+            <p>城市笔记、路线复盘、照片整理和旅行中遇到的人与地方。</p>
+          </a>
+          <a href="life.html#journal">
+            <h3>Journal</h3>
+            <p>电子设备、阅读摘记，以及一些不完全属于技术但值得留下来的想法。</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="about-copy">
+          <p class="eyebrow">About</p>
+          <h2>关于我</h2>
+          <p>
+            我来自中国广东深圳，本科和硕士就读于华南理工大学，目前在 Shopee
+            Engineering Infra 部门担任 SRE。技术上主要关注 Linux、Kubernetes、
+            MySQL，日常会记录工作实践、问题排查和新知识总结。生活里喜欢踢足球，
+            是尤文图斯球迷，也关注电子设备，喜欢去不同城市旅行。
+          </p>
+        </div>
+        <div class="info-list">
+          <div>
+            <span>Email</span>
+            <a href="mailto:kevinweng0509@gmail.com">kevinweng0509@gmail.com</a>
+          </div>
+          <div>
+            <span>GitHub</span>
+            <a href="https://github.com/rofgmd">@rofgmd</a>
+          </div>
+          <div>
+            <span>Location</span>
+            <p>Shenzhen, Guangdong, China</p>
+          </div>
+          <div>
+            <span>Skills</span>
+            <p>Go, Python, Linux, Kubernetes, MySQL</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Kevin Weng · SRE Field Notes</p>
+      <a href="#top">Back to top</a>
+    </footer>
+    <script src="theme.js"></script>
+  </body>
+</html>

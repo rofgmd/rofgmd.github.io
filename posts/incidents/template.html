@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>故障复盘模板 | Kevin Weng</title>
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../index.html">Kevin Weng</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="../../engineering.html">Engineering</a>
+        <a href="../../life.html">Life</a>
+        <a href="../../index.html#about">About</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">Dark</button>
+    </header>
+
+    <main>
+      <article class="article">
+        <p class="eyebrow">Incident Template</p>
+        <h1>故障复盘模板</h1>
+        <p class="article-lead">
+          目标是把一次问题说清楚：影响了什么、为什么发生、怎样恢复、后续如何降低再次发生的概率。
+        </p>
+
+        <h2>摘要</h2>
+        <p>一句话描述事故，包括服务、影响和最终状态。</p>
+
+        <h2>影响范围</h2>
+        <ul>
+          <li>受影响服务：</li>
+          <li>受影响用户或请求比例：</li>
+          <li>持续时间：</li>
+          <li>严重程度：</li>
+        </ul>
+
+        <h2>时间线</h2>
+        <ul>
+          <li>T+00m 告警触发：</li>
+          <li>T+05m 初步判断：</li>
+          <li>T+15m 缓解动作：</li>
+          <li>T+30m 服务恢复：</li>
+        </ul>
+
+        <h2>根因</h2>
+        <p>写清楚直接原因和系统性原因，避免只停留在“某个人操作失误”。</p>
+
+        <h2>修复与改进</h2>
+        <ul>
+          <li>短期修复：</li>
+          <li>长期改进：</li>
+          <li>监控与告警补充：</li>
+          <li>Runbook 更新：</li>
+        </ul>
+      </article>
+    </main>
+    <script src="../../theme.js"></script>
+  </body>
+</html>
