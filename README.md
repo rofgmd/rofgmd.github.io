@@ -14,7 +14,7 @@ Shenzhen, Guangdong, China 中国，广东，深圳
 
 **邮件 Email: kevinweng0509@gmail.com wengkai_hang@foxmail.com**
 
-GitHub: [@Kevin Weng](https://github.com/rofgmd)
+GitHub: [@KaiHang-Weng](https://github.com/KaiHang-Weng)
 
 ## 教育经历 (Education)
 
